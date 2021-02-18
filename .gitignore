@@ -1,5 +1,10 @@
-/node_modules
-/package-lock.json
-/public
-/.env
-/.idea
+node_modules
+package-lock.json
+public
+.env
+.idea
+*.sublime*
+.vscode
+.DS_Store
+npm-debug.*
+Thumbs.db
