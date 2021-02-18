@@ -1,0 +1,27 @@
+@import "root";
+
+html {
+  font-size: $font-size;
+  color: $font-color;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("../assets/images/webpack.png");
+}
+
+.webpack-logo {
+  width: 200px;
+  height: 200px;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  background-image: url("../assets/images/whatsapp.svg");
+  background-position: center;
+  background-size: contain;
+}
